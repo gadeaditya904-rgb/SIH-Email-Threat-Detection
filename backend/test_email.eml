@@ -1,0 +1,19 @@
+From: sender@example.com
+To: analyst@example.com
+Subject: Test Email for SIH Threat Detection
+Date: Sun, 6 Sep 2026 14:30:00 +0530
+Message-ID: <test-12345@example.com>
+Return-Path: <sender@example.com>
+Reply-To: sender@example.com
+Received: from mail.example.com (192.0.2.10) by mail.receiver.com;
+Authentication-Results: spf=pass; dkim=pass; dmarc=pass
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+This is a test email created for the SIH Email Threat Detection project.
+
+This email is being used to test .eml parsing and forensic header extraction.
+
+Regards,
+Test User
