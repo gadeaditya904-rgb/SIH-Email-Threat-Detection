@@ -1,0 +1,15 @@
+From: "Example Sender" <alice@example.com>
+To: analyst@example.com
+Subject: Legitimate header sample
+Date: Sun, 6 Sep 2026 14:30:00 +0530
+Message-ID: <normal-001@example.com>
+Return-Path: <alice@example.com>
+Reply-To: alice@example.com
+Received: from mail.example.com (mail.example.com [192.0.2.10]) by mx.example.net with ESMTPS; Sun, 6 Sep 2026 09:00:00 +0000
+Authentication-Results: mx.example.net; spf=pass smtp.mailfrom=example.com; dkim=pass header.d=example.com; dmarc=pass header.from=example.com
+Received-SPF: Pass (example.com: domain of alice@example.com designates 192.0.2.10 as permitted sender)
+DKIM-Signature: v=1; a=rsa-sha256; d=example.com; s=selector; bh=abc; b=def
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+This is a normal test message for header forensics.

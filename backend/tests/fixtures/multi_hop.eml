@@ -1,0 +1,14 @@
+From: hop-tester@example.com
+To: analyst@example.com
+Subject: Multi-hop received chain
+Date: Sun, 6 Sep 2026 14:30:00 +0530
+Message-ID: <hops-333@example.com>
+Return-Path: <hop-tester@example.com>
+Reply-To: hop-tester@example.com
+Received: from mx.corp.example (mx.corp.example [10.0.0.5]) by inbox.example.com with ESMTPS; Sun, 6 Sep 2026 09:03:00 +0000
+Received: from edge.provider.net (edge.provider.net [8.8.8.8]) by mx.corp.example (10.0.0.5) with ESMTPS; Sun, 6 Sep 2026 09:02:00 +0000
+Received: from origin.example.com (origin.example.com [192.0.2.88] [IPv6:2001:db8::88]) by edge.provider.net with ESMTP; Sun, 6 Sep 2026 09:01:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Multiple Received headers with public and private IPs.

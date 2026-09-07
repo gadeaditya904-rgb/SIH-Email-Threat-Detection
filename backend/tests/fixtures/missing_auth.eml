@@ -1,0 +1,12 @@
+From: nobody@example.com
+To: analyst@example.com
+Subject: Missing authentication headers
+Date: Sun, 6 Sep 2026 14:30:00 +0530
+Message-ID: <no-auth-44@example.com>
+Return-Path: <nobody@example.com>
+Reply-To: nobody@example.com
+Received: from mail.example.com (192.0.2.10) by mail.receiver.com; Sun, 6 Sep 2026 09:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+This message has no Authentication-Results, Received-SPF, or DKIM-Signature.

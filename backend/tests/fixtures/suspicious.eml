@@ -1,0 +1,14 @@
+From: "Billing Desk" <support@trusted-bank.example>
+To: victim@example.com
+Subject: Urgent account review
+Date: Sun, 6 Sep 2026 14:30:00 +0530
+Message-ID: <phish-0099@unrelated-host.net>
+Return-Path: <bounce@evil-mailer.test>
+Reply-To: attacker@evil-mailer.test
+Received: from unknown (unknown [203.0.113.50]) by mx.example.net with SMTP; Sun, 6 Sep 2026 09:05:00 +0000
+Authentication-Results: mx.example.net; spf=fail smtp.mailfrom=evil-mailer.test; dkim=fail header.d=evil-mailer.test; dmarc=fail header.from=trusted-bank.example
+Received-SPF: Fail (domain of bounce@evil-mailer.test does not designate 203.0.113.50 as permitted sender)
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Please reply immediately with your password.
