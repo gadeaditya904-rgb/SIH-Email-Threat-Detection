@@ -2,6 +2,7 @@ from fastapi import FastAPI
 
 from api.routes.email import router as email_router
 from api.routes.forensics import router as forensics_router
+from api.routes.url_analysis import router as url_analysis_router
 
 app = FastAPI(
     title="AI-Powered Email Threat Detection API",
@@ -11,6 +12,7 @@ app = FastAPI(
 
 app.include_router(email_router)
 app.include_router(forensics_router)
+app.include_router(url_analysis_router)
 
 
 @app.get("/")
